@@ -1,0 +1,1107 @@
+[12:43:23.89] Debug: Running build Release_2020.2.0_1761 on windows
+[12:43:23.89] Info: Starting initialize.
+[12:43:23.90] Info: Ending initialize.
+[12:43:23.90] Info: Starting iteration 1.
+[12:43:23.90] Debug: Parameter userID (sequential) is taken from row 0
+[12:43:23.90] Info: Parameter Substitution: 'userID = Mercury'	(./main.js:16:37)
+[12:43:23.90] Debug: Parameter userPWD (same as userID) is taken from row 0
+[12:43:23.90] Info: Parameter Substitution: 'userPWD = Mercury'	(./main.js:16:61)
+[12:43:23.90] Info: Using: [Mercury : Mercury]	(./main.js:16:10)
+[12:43:23.90] Info: Transaction 'AOS_landing_page' started.	(./main.js:18:9)
+[12:43:23.91] Info: WebRequest [Id: 1] 'http://www.advantageonlineshopping.com/' registered to send (sync).
+[12:43:23.91] Trace: Request [Id: 1] 'http://www.advantageonlineshopping.com/': 
+GET / HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.91] Debug: Request [Id: 1]: GET 'http://www.advantageonlineshopping.com/' started.
+[12:43:23.93] Trace: Request [Id: 1]: Connecting tcp socket to host 107.23.171.213:80.
+[12:43:23.94] Trace: Request [Id: 1]: Connection to host 107.23.171.213:80 done.
+[12:43:23.94] Trace: Request [Id: 1]: New connection from 192.168.1.244:52060 to 107.23.171.213:80 in 9 ms.
+[12:43:23.96] Debug: Request [Id: 1]: GET 'http://www.advantageonlineshopping.com/' done. Status 200 . HTTP/1.1
+[12:43:23.96] Trace: Response 'http://www.advantageonlineshopping.com/': 
+HTTP/1.1 200 
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Cache-Control: max-age=0
+Connection: keep-alive
+Content-Encoding: gzip
+Content-Type: text/html
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Etag: W/"10827-1592473838000"
+Expires: Wed, 15 Jul 2020 19:43:18 GMT
+Last-Modified: Thu, 18 Jun 2020 09:50:38 GMT
+Server: nginx/1.14.0 (Ubuntu)
+Vary: accept-encoding
+
+
+[12:43:23.96] Trace: Request [Id: 1.13] 'http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1237': 
+GET /catalog/fetchImage?image_id=1237 HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Debug: Request [Id: 1.13]: GET 'http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1237' started.
+[12:43:23.96] Trace: Request [Id: 1.13]: Connection reused from 192.168.1.244:52060 to 107.23.171.213:80.
+[12:43:23.96] Trace: Request [Id: 1.3] 'http://www.advantageonlineshopping.com/vendor/requirejs/require.js': 
+GET /vendor/requirejs/require.js HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Debug: Request [Id: 1.3]: GET 'http://www.advantageonlineshopping.com/vendor/requirejs/require.js' started.
+[12:43:23.96] Trace: Request [Id: 1.17] 'http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1234': 
+GET /catalog/fetchImage?image_id=1234 HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Debug: Request [Id: 1.17]: GET 'http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1234' started.
+[12:43:23.96] Trace: Request [Id: 1.18] 'http://www.advantageonlineshopping.com/css/images/GoUp.png': 
+GET /css/images/GoUp.png HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Debug: Request [Id: 1.18]: GET 'http://www.advantageonlineshopping.com/css/images/GoUp.png' started.
+[12:43:23.96] Trace: Request [Id: 1.19] 'http://www.advantageonlineshopping.com/css/images/Special-offer.jpg': 
+GET /css/images/Special-offer.jpg HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Debug: Request [Id: 1.19]: GET 'http://www.advantageonlineshopping.com/css/images/Special-offer.jpg' started.
+[12:43:23.96] Trace: Request [Id: 1.27] 'http://www.advantageonlineshopping.com/css/images/Popular-item3.jpg': 
+GET /css/images/Popular-item3.jpg HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Trace: Request [Id: 1.21] 'http://www.advantageonlineshopping.com/css/images/facebook.png': 
+GET /css/images/facebook.png HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Trace: Request [Id: 1.26] 'http://www.advantageonlineshopping.com/css/images/Banner3.jpg': 
+GET /css/images/Banner3.jpg HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Trace: Request [Id: 1.20] 'http://www.advantageonlineshopping.com/css/images/chat_logo.png': 
+GET /css/images/chat_logo.png HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Trace: Request [Id: 1.7] 'http://www.advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL': 
+GET /catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Trace: Request [Id: 1.29] 'http://www.advantageonlineshopping.com/css/images/Popular-item1.jpg': 
+GET /css/images/Popular-item1.jpg HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Trace: Request [Id: 1.22] 'http://www.advantageonlineshopping.com/css/images/twitter.png': 
+GET /css/images/twitter.png HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Trace: Request [Id: 1.4] 'http://www.advantageonlineshopping.com/main.min.js': 
+GET /main.min.js HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Trace: Request [Id: 1.23] 'http://www.advantageonlineshopping.com/css/images/linkedin.png': 
+GET /css/images/linkedin.png HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Trace: Request [Id: 1.24] 'http://www.advantageonlineshopping.com/css/images/Banner1.jpg': 
+GET /css/images/Banner1.jpg HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Trace: Request [Id: 1.28] 'http://www.advantageonlineshopping.com/css/images/Popular-item2.jpg': 
+GET /css/images/Popular-item2.jpg HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Trace: Request [Id: 1.16] 'http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1238': 
+GET /catalog/fetchImage?image_id=1238 HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Trace: Request [Id: 1.9] 'http://www.advantageonlineshopping.com/css/images/closeDark.png': 
+GET /css/images/closeDark.png HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Trace: Request [Id: 1.10] 'http://www.advantageonlineshopping.com/catalog/api/v1/categories': 
+GET /catalog/api/v1/categories HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Trace: Request [Id: 1.8] 'http://www.advantageonlineshopping.com/css/images/logo.png': 
+GET /css/images/logo.png HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Trace: Request [Id: 1.5] 'http://www.advantageonlineshopping.com/services.properties': 
+GET /services.properties HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Trace: Request [Id: 1.11] 'http://www.advantageonlineshopping.com/catalog/api/v1/deals/search?dealOfTheDay=true': 
+GET /catalog/api/v1/deals/search?dealOfTheDay=true HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Trace: Request [Id: 1.6] 'http://www.advantageonlineshopping.com/catalog/api/v1/categories/all_data': 
+GET /catalog/api/v1/categories/all_data HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Trace: Request [Id: 1.1] 'http://www.advantageonlineshopping.com/css/main.min.css': 
+GET /css/main.min.css HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Trace: Request [Id: 1.12] 'http://www.advantageonlineshopping.com/css/images/arrow_right.png': 
+GET /css/images/arrow_right.png HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Trace: Request [Id: 1.14] 'http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1236': 
+GET /catalog/fetchImage?image_id=1236 HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Trace: Request [Id: 1.15] 'http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1235': 
+GET /catalog/fetchImage?image_id=1235 HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Trace: Request [Id: 1.25] 'http://www.advantageonlineshopping.com/css/images/Banner2.jpg': 
+GET /css/images/Banner2.jpg HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Trace: Request [Id: 1.2] 'http://www.advantageonlineshopping.com/css/images/Down_arrow.svg': 
+GET /css/images/Down_arrow.svg HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+Upgrade-Insecure-Requests: 1
+
+
+[12:43:23.96] Trace: Request [Id: 1.18]: Connecting tcp socket to host 107.23.171.213:80.
+[12:43:23.96] Trace: Request [Id: 1.3]: Connecting tcp socket to host 107.23.171.213:80.
+[12:43:23.96] Trace: Request [Id: 1.17]: Connecting tcp socket to host 107.23.171.213:80.
+[12:43:23.97] Trace: Request [Id: 1.19]: Connecting tcp socket to host 107.23.171.213:80.
+[12:43:23.97] Debug: Request [Id: 1.27]: GET 'http://www.advantageonlineshopping.com/css/images/Popular-item3.jpg' started.
+[12:43:23.97] Debug: Request [Id: 1.21]: GET 'http://www.advantageonlineshopping.com/css/images/facebook.png' started.
+[12:43:23.97] Debug: Request [Id: 1.26]: GET 'http://www.advantageonlineshopping.com/css/images/Banner3.jpg' started.
+[12:43:23.97] Debug: Request [Id: 1.20]: GET 'http://www.advantageonlineshopping.com/css/images/chat_logo.png' started.
+[12:43:23.97] Debug: Request [Id: 1.7]: GET 'http://www.advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL' started.
+[12:43:23.98] Debug: Request [Id: 1.29]: GET 'http://www.advantageonlineshopping.com/css/images/Popular-item1.jpg' started.
+[12:43:23.98] Debug: Request [Id: 1.22]: GET 'http://www.advantageonlineshopping.com/css/images/twitter.png' started.
+[12:43:23.98] Debug: Request [Id: 1.4]: GET 'http://www.advantageonlineshopping.com/main.min.js' started.
+[12:43:23.98] Debug: Request [Id: 1.23]: GET 'http://www.advantageonlineshopping.com/css/images/linkedin.png' started.
+[12:43:23.98] Debug: Request [Id: 1.24]: GET 'http://www.advantageonlineshopping.com/css/images/Banner1.jpg' started.
+[12:43:23.98] Debug: Request [Id: 1.28]: GET 'http://www.advantageonlineshopping.com/css/images/Popular-item2.jpg' started.
+[12:43:23.99] Debug: Request [Id: 1.16]: GET 'http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1238' started.
+[12:43:23.99] Debug: Request [Id: 1.13]: GET 'http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1237' done. Status 200 . HTTP/1.1
+[12:43:23.99] Debug: Request [Id: 1.9]: GET 'http://www.advantageonlineshopping.com/css/images/closeDark.png' started.
+[12:43:23.99] Debug: Request [Id: 1.10]: GET 'http://www.advantageonlineshopping.com/catalog/api/v1/categories' started.
+[12:43:23.99] Debug: Request [Id: 1.8]: GET 'http://www.advantageonlineshopping.com/css/images/logo.png' started.
+[12:43:24.00] Debug: Request [Id: 1.5]: GET 'http://www.advantageonlineshopping.com/services.properties' started.
+[12:43:24.00] Debug: Request [Id: 1.11]: GET 'http://www.advantageonlineshopping.com/catalog/api/v1/deals/search?dealOfTheDay=true' started.
+[12:43:24.00] Debug: Request [Id: 1.6]: GET 'http://www.advantageonlineshopping.com/catalog/api/v1/categories/all_data' started.
+[12:43:24.01] Debug: Request [Id: 1.1]: GET 'http://www.advantageonlineshopping.com/css/main.min.css' started.
+[12:43:24.01] Debug: Request [Id: 1.12]: GET 'http://www.advantageonlineshopping.com/css/images/arrow_right.png' started.
+[12:43:24.01] Debug: Request [Id: 1.14]: GET 'http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1236' started.
+[12:43:24.01] Debug: Request [Id: 1.15]: GET 'http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1235' started.
+[12:43:24.02] Debug: Request [Id: 1.25]: GET 'http://www.advantageonlineshopping.com/css/images/Banner2.jpg' started.
+[12:43:24.02] Debug: Request [Id: 1.2]: GET 'http://www.advantageonlineshopping.com/css/images/Down_arrow.svg' started.
+[12:43:24.03] Trace: Request [Id: 1.18]: Connection to host 107.23.171.213:80 done.
+[12:43:24.03] Trace: Request [Id: 1.3]: Connection to host 107.23.171.213:80 done.
+[12:43:24.04] Trace: Request [Id: 1.27]: Connecting tcp socket to host 107.23.171.213:80.
+[12:43:24.04] Trace: Request [Id: 1.17]: Connection to host 107.23.171.213:80 done.
+[12:43:24.04] Trace: Request [Id: 1.19]: Connection to host 107.23.171.213:80 done.
+[12:43:24.06] Trace: Response 'http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1237': 
+HTTP/1.1 200 
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=864000
+Connection: keep-alive
+Content-Type: image/png
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Expires: Sat, 25 Jul 2020 19:43:18 GMT
+Server: nginx/1.14.0 (Ubuntu)
+
+
+[12:43:24.08] Trace: Request [Id: 1.18]: New connection from 192.168.1.244:52061 to 107.23.171.213:80 in 69 ms.
+[12:43:24.08] Trace: Request [Id: 1.3]: New connection from 192.168.1.244:52062 to 107.23.171.213:80 in 71 ms.
+[12:43:24.09] Trace: Request [Id: 1.17]: New connection from 192.168.1.244:52063 to 107.23.171.213:80 in 74 ms.
+[12:43:24.09] Trace: Request [Id: 1.19]: New connection from 192.168.1.244:52064 to 107.23.171.213:80 in 72 ms.
+[12:43:24.09] Trace: Request [Id: 1.27]: Connection reused from 192.168.1.244:52060 to 107.23.171.213:80.
+[12:43:24.10] Trace: Request [Id: 1.27]: Connection to host 107.23.171.213:80 done.
+[12:43:24.10] Trace: Request [Id: 1.21]: Connection reused from 192.168.1.244:52065 to 107.23.171.213:80.
+[12:43:24.10] Debug: Request [Id: 1.18]: GET 'http://www.advantageonlineshopping.com/css/images/GoUp.png' done. Status 200 . HTTP/1.1
+[12:43:24.11] Trace: Response 'http://www.advantageonlineshopping.com/css/images/GoUp.png': 
+HTTP/1.1 200 
+Content-Length: 2114
+Accept-Ranges: bytes
+Cache-Control: max-age=864000
+Connection: keep-alive
+Content-Type: image/png
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Etag: W/"2114-1592473838000"
+Expires: Sat, 25 Jul 2020 19:43:18 GMT
+Last-Modified: Thu, 18 Jun 2020 09:50:38 GMT
+Server: nginx/1.14.0 (Ubuntu)
+
+
+[12:43:24.11] Trace: Request [Id: 1.26]: Connection reused from 192.168.1.244:52061 to 107.23.171.213:80.
+[12:43:24.11] Debug: Request [Id: 1.17]: GET 'http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1234' done. Status 200 . HTTP/1.1
+[12:43:24.11] Debug: Request [Id: 1.19]: GET 'http://www.advantageonlineshopping.com/css/images/Special-offer.jpg' done. Status 200 . HTTP/1.1
+[12:43:24.11] Debug: Request [Id: 1.27]: GET 'http://www.advantageonlineshopping.com/css/images/Popular-item3.jpg' done. Status 200 . HTTP/1.1
+[12:43:24.11] Debug: Request [Id: 1.3]: GET 'http://www.advantageonlineshopping.com/vendor/requirejs/require.js' done. Status 200 . HTTP/1.1
+[12:43:24.11] Trace: Response 'http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1234': 
+HTTP/1.1 200 
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=864000
+Connection: keep-alive
+Content-Type: image/jpg
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Expires: Sat, 25 Jul 2020 19:43:18 GMT
+Server: nginx/1.14.0 (Ubuntu)
+
+
+[12:43:24.11] Trace: Response 'http://www.advantageonlineshopping.com/css/images/Special-offer.jpg': 
+HTTP/1.1 200 
+Content-Length: 80826
+Accept-Ranges: bytes
+Cache-Control: max-age=864000
+Connection: keep-alive
+Content-Type: image/jpeg
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Etag: W/"80826-1592473838000"
+Expires: Sat, 25 Jul 2020 19:43:18 GMT
+Last-Modified: Thu, 18 Jun 2020 09:50:38 GMT
+Server: nginx/1.14.0 (Ubuntu)
+
+
+[12:43:24.11] Trace: Response 'http://www.advantageonlineshopping.com/css/images/Popular-item3.jpg': 
+HTTP/1.1 200 
+Content-Length: 25978
+Accept-Ranges: bytes
+Cache-Control: max-age=864000
+Connection: keep-alive
+Content-Type: image/jpeg
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Etag: W/"25978-1592473838000"
+Expires: Sat, 25 Jul 2020 19:43:18 GMT
+Last-Modified: Thu, 18 Jun 2020 09:50:38 GMT
+Server: nginx/1.14.0 (Ubuntu)
+
+
+[12:43:24.12] Trace: Response 'http://www.advantageonlineshopping.com/vendor/requirejs/require.js': 
+HTTP/1.1 200 
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Cache-Control: max-age=600
+Connection: keep-alive
+Content-Encoding: gzip
+Content-Type: application/javascript
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Etag: W/"85921-1556724020000"
+Expires: Wed, 15 Jul 2020 19:53:18 GMT
+Last-Modified: Wed, 01 May 2019 15:20:20 GMT
+Server: nginx/1.14.0 (Ubuntu)
+Vary: accept-encoding
+
+
+[12:43:24.12] Debug: Request [Id: 1.21]: GET 'http://www.advantageonlineshopping.com/css/images/facebook.png' done. Status 200 . HTTP/1.1
+[12:43:24.12] Debug: Request [Id: 1.26]: GET 'http://www.advantageonlineshopping.com/css/images/Banner3.jpg' done. Status 200 . HTTP/1.1
+[12:43:24.12] Trace: Request [Id: 1.20]: Connection reused from 192.168.1.244:52060 to 107.23.171.213:80.
+[12:43:24.12] Trace: Request [Id: 1.7]: Connection reused from 192.168.1.244:52062 to 107.23.171.213:80.
+[12:43:24.13] Trace: Response 'http://www.advantageonlineshopping.com/css/images/facebook.png': 
+HTTP/1.1 200 
+Content-Length: 1583
+Accept-Ranges: bytes
+Cache-Control: max-age=864000
+Connection: keep-alive
+Content-Type: image/png
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Etag: W/"1583-1592473838000"
+Expires: Sat, 25 Jul 2020 19:43:18 GMT
+Last-Modified: Thu, 18 Jun 2020 09:50:38 GMT
+Server: nginx/1.14.0 (Ubuntu)
+
+
+[12:43:24.14] Trace: Request [Id: 1.29]: Connection reused from 192.168.1.244:52063 to 107.23.171.213:80.
+[12:43:24.14] Trace: Request [Id: 1.22]: Connection reused from 192.168.1.244:52064 to 107.23.171.213:80.
+[12:43:24.14] Trace: Response 'http://www.advantageonlineshopping.com/css/images/Banner3.jpg': 
+HTTP/1.1 200 
+Content-Length: 68456
+Accept-Ranges: bytes
+Cache-Control: max-age=864000
+Connection: keep-alive
+Content-Type: image/jpeg
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Etag: W/"68456-1592473838000"
+Expires: Sat, 25 Jul 2020 19:43:18 GMT
+Last-Modified: Thu, 18 Jun 2020 09:50:38 GMT
+Server: nginx/1.14.0 (Ubuntu)
+
+
+[12:43:24.17] Trace: Request [Id: 1.4]: Connection reused from 192.168.1.244:52065 to 107.23.171.213:80.
+[12:43:24.17] Trace: Request [Id: 1.23]: Connection reused from 192.168.1.244:52061 to 107.23.171.213:80.
+[12:43:24.18] Debug: Request [Id: 1.20]: GET 'http://www.advantageonlineshopping.com/css/images/chat_logo.png' done. Status 200 . HTTP/1.1
+[12:43:24.18] Trace: Response 'http://www.advantageonlineshopping.com/css/images/chat_logo.png': 
+HTTP/1.1 200 
+Content-Length: 3003
+Accept-Ranges: bytes
+Cache-Control: max-age=864000
+Connection: keep-alive
+Content-Type: image/png
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Etag: W/"3003-1592473838000"
+Expires: Sat, 25 Jul 2020 19:43:18 GMT
+Last-Modified: Thu, 18 Jun 2020 09:50:38 GMT
+Server: nginx/1.14.0 (Ubuntu)
+
+
+[12:43:24.18] Debug: Request [Id: 1.7]: GET 'http://www.advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL' done. Status 200 . HTTP/1.1
+[12:43:24.18] Trace: Request [Id: 1.24]: Connection reused from 192.168.1.244:52060 to 107.23.171.213:80.
+[12:43:24.18] Debug: Request [Id: 1.29]: GET 'http://www.advantageonlineshopping.com/css/images/Popular-item1.jpg' done. Status 200 . HTTP/1.1
+[12:43:24.18] Debug: Request [Id: 1.22]: GET 'http://www.advantageonlineshopping.com/css/images/twitter.png' done. Status 200 . HTTP/1.1
+[12:43:24.18] Trace: Response 'http://www.advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL': 
+HTTP/1.1 200 
+Transfer-Encoding: chunked
+Cache-Control: no-store
+Connection: keep-alive
+Content-Encoding: gzip
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Expires: 0
+Server: nginx/1.14.0 (Ubuntu)
+Vary: accept-encoding
+
+
+[12:43:24.18] Trace: Response 'http://www.advantageonlineshopping.com/css/images/Popular-item1.jpg': 
+HTTP/1.1 200 
+Content-Length: 42737
+Accept-Ranges: bytes
+Cache-Control: max-age=864000
+Connection: keep-alive
+Content-Type: image/jpeg
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Etag: W/"42737-1592473838000"
+Expires: Sat, 25 Jul 2020 19:43:18 GMT
+Last-Modified: Thu, 18 Jun 2020 09:50:38 GMT
+Server: nginx/1.14.0 (Ubuntu)
+
+
+[12:43:24.19] Debug: Request [Id: 1.23]: GET 'http://www.advantageonlineshopping.com/css/images/linkedin.png' done. Status 200 . HTTP/1.1
+[12:43:24.19] Trace: Response 'http://www.advantageonlineshopping.com/css/images/twitter.png': 
+HTTP/1.1 200 
+Content-Length: 2064
+Accept-Ranges: bytes
+Cache-Control: max-age=864000
+Connection: keep-alive
+Content-Type: image/png
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Etag: W/"2064-1592473838000"
+Expires: Sat, 25 Jul 2020 19:43:18 GMT
+Last-Modified: Thu, 18 Jun 2020 09:50:38 GMT
+Server: nginx/1.14.0 (Ubuntu)
+
+
+[12:43:24.19] Debug: Request [Id: 1.4]: GET 'http://www.advantageonlineshopping.com/main.min.js' done. Status 200 . HTTP/1.1
+[12:43:24.19] Trace: Request [Id: 1.28]: Connection reused from 192.168.1.244:52062 to 107.23.171.213:80.
+[12:43:24.19] Trace: Request [Id: 1.16]: Connection reused from 192.168.1.244:52063 to 107.23.171.213:80.
+[12:43:24.19] Trace: Response 'http://www.advantageonlineshopping.com/css/images/linkedin.png': 
+HTTP/1.1 200 
+Content-Length: 1707
+Accept-Ranges: bytes
+Cache-Control: max-age=864000
+Connection: keep-alive
+Content-Type: image/png
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Etag: W/"1707-1592473838000"
+Expires: Sat, 25 Jul 2020 19:43:18 GMT
+Last-Modified: Thu, 18 Jun 2020 09:50:38 GMT
+Server: nginx/1.14.0 (Ubuntu)
+
+
+[12:43:24.19] Trace: Request [Id: 1.9]: Connection reused from 192.168.1.244:52064 to 107.23.171.213:80.
+[12:43:24.19] Trace: Response 'http://www.advantageonlineshopping.com/main.min.js': 
+HTTP/1.1 200 
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Cache-Control: max-age=600
+Connection: keep-alive
+Content-Encoding: gzip
+Content-Type: application/javascript
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Etag: W/"1127149-1592473838000"
+Expires: Wed, 15 Jul 2020 19:53:18 GMT
+Last-Modified: Thu, 18 Jun 2020 09:50:38 GMT
+Server: nginx/1.14.0 (Ubuntu)
+Vary: accept-encoding
+
+
+[12:43:24.19] Debug: Request [Id: 1.24]: GET 'http://www.advantageonlineshopping.com/css/images/Banner1.jpg' done. Status 200 . HTTP/1.1
+[12:43:24.20] Trace: Request [Id: 1.10]: Connection reused from 192.168.1.244:52061 to 107.23.171.213:80.
+[12:43:24.21] Debug: Request [Id: 1.28]: GET 'http://www.advantageonlineshopping.com/css/images/Popular-item2.jpg' done. Status 200 . HTTP/1.1
+[12:43:24.21] Trace: Response 'http://www.advantageonlineshopping.com/css/images/Banner1.jpg': 
+HTTP/1.1 200 
+Content-Length: 496378
+Accept-Ranges: bytes
+Cache-Control: max-age=864000
+Connection: keep-alive
+Content-Type: image/jpeg
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Etag: W/"496378-1592473838000"
+Expires: Sat, 25 Jul 2020 19:43:18 GMT
+Last-Modified: Thu, 18 Jun 2020 09:50:38 GMT
+Server: nginx/1.14.0 (Ubuntu)
+
+
+[12:43:24.21] Debug: Request [Id: 1.16]: GET 'http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1238' done. Status 200 . HTTP/1.1
+[12:43:24.22] Debug: Request [Id: 1.9]: GET 'http://www.advantageonlineshopping.com/css/images/closeDark.png' done. Status 200 . HTTP/1.1
+[12:43:24.22] Trace: Response 'http://www.advantageonlineshopping.com/css/images/Popular-item2.jpg': 
+HTTP/1.1 200 
+Content-Length: 28087
+Accept-Ranges: bytes
+Cache-Control: max-age=864000
+Connection: keep-alive
+Content-Type: image/jpeg
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Etag: W/"28087-1592473838000"
+Expires: Sat, 25 Jul 2020 19:43:18 GMT
+Last-Modified: Thu, 18 Jun 2020 09:50:38 GMT
+Server: nginx/1.14.0 (Ubuntu)
+
+
+[12:43:24.22] Trace: Response 'http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1238': 
+HTTP/1.1 200 
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=864000
+Connection: keep-alive
+Content-Type: image/png
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Expires: Sat, 25 Jul 2020 19:43:18 GMT
+Server: nginx/1.14.0 (Ubuntu)
+
+
+[12:43:24.23] Trace: Request [Id: 1.8]: Connection reused from 192.168.1.244:52065 to 107.23.171.213:80.
+[12:43:24.23] Trace: Response 'http://www.advantageonlineshopping.com/css/images/closeDark.png': 
+HTTP/1.1 200 
+Content-Length: 1098
+Accept-Ranges: bytes
+Cache-Control: max-age=864000
+Connection: keep-alive
+Content-Type: image/png
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Etag: W/"1098-1592473838000"
+Expires: Sat, 25 Jul 2020 19:43:18 GMT
+Last-Modified: Thu, 18 Jun 2020 09:50:38 GMT
+Server: nginx/1.14.0 (Ubuntu)
+
+
+[12:43:24.23] Trace: Request [Id: 1.5]: Connection reused from 192.168.1.244:52062 to 107.23.171.213:80.
+[12:43:24.23] Trace: Request [Id: 1.11]: Connection reused from 192.168.1.244:52063 to 107.23.171.213:80.
+[12:43:24.24] Trace: Request [Id: 1.6]: Connection reused from 192.168.1.244:52060 to 107.23.171.213:80.
+[12:43:24.25] Trace: Request [Id: 1.1]: Connection reused from 192.168.1.244:52064 to 107.23.171.213:80.
+[12:43:24.25] Debug: Request [Id: 1.8]: GET 'http://www.advantageonlineshopping.com/css/images/logo.png' done. Status 200 . HTTP/1.1
+[12:43:24.25] Trace: Response 'http://www.advantageonlineshopping.com/css/images/logo.png': 
+HTTP/1.1 200 
+Content-Length: 2645
+Accept-Ranges: bytes
+Cache-Control: max-age=864000
+Connection: keep-alive
+Content-Type: image/png
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Etag: W/"2645-1592473838000"
+Expires: Sat, 25 Jul 2020 19:43:18 GMT
+Last-Modified: Thu, 18 Jun 2020 09:50:38 GMT
+Server: nginx/1.14.0 (Ubuntu)
+
+
+[12:43:24.26] Trace: Request [Id: 1.12]: Connection reused from 192.168.1.244:52065 to 107.23.171.213:80.
+[12:43:24.26] Debug: Request [Id: 1.5]: GET 'http://www.advantageonlineshopping.com/services.properties' done. Status 200 . HTTP/1.1
+[12:43:24.26] Trace: Response 'http://www.advantageonlineshopping.com/services.properties': 
+HTTP/1.1 200 
+Content-Length: 1012
+Accept-Ranges: bytes
+Cache-Control: max-age=0
+Connection: keep-alive
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Etag: W/"1012-1594804666075"
+Expires: Wed, 15 Jul 2020 19:43:18 GMT
+Last-Modified: Wed, 15 Jul 2020 09:17:46 GMT
+Server: nginx/1.14.0 (Ubuntu)
+
+
+[12:43:24.26] Trace: Request [Id: 1.14]: Connection reused from 192.168.1.244:52062 to 107.23.171.213:80.
+[12:43:24.27] Debug: Request [Id: 1.1]: GET 'http://www.advantageonlineshopping.com/css/main.min.css' done. Status 200 . HTTP/1.1
+[12:43:24.27] Trace: Response 'http://www.advantageonlineshopping.com/css/main.min.css': 
+HTTP/1.1 200 
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Cache-Control: max-age=36000
+Connection: keep-alive
+Content-Encoding: gzip
+Content-Type: text/css
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Etag: W/"170446-1592473838000"
+Expires: Thu, 16 Jul 2020 05:43:18 GMT
+Last-Modified: Thu, 18 Jun 2020 09:50:38 GMT
+Server: nginx/1.14.0 (Ubuntu)
+Vary: accept-encoding
+
+
+[12:43:24.27] Trace: Request [Id: 1.15]: Connection reused from 192.168.1.244:52064 to 107.23.171.213:80.
+[12:43:24.27] Debug: Request [Id: 1.12]: GET 'http://www.advantageonlineshopping.com/css/images/arrow_right.png' done. Status 200 . HTTP/1.1
+[12:43:24.27] Trace: Response 'http://www.advantageonlineshopping.com/css/images/arrow_right.png': 
+HTTP/1.1 200 
+Content-Length: 996
+Accept-Ranges: bytes
+Cache-Control: max-age=864000
+Connection: keep-alive
+Content-Type: image/png
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Etag: W/"996-1592473838000"
+Expires: Sat, 25 Jul 2020 19:43:18 GMT
+Last-Modified: Thu, 18 Jun 2020 09:50:38 GMT
+Server: nginx/1.14.0 (Ubuntu)
+
+
+[12:43:24.27] Trace: Request [Id: 1.25]: Connection reused from 192.168.1.244:52065 to 107.23.171.213:80.
+[12:43:24.28] Debug: Request [Id: 1.14]: GET 'http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1236' done. Status 200 . HTTP/1.1
+[12:43:24.28] Trace: Response 'http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1236': 
+HTTP/1.1 200 
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=864000
+Connection: keep-alive
+Content-Type: image/jpg
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Expires: Sat, 25 Jul 2020 19:43:18 GMT
+Server: nginx/1.14.0 (Ubuntu)
+
+
+[12:43:24.28] Debug: Request [Id: 1.15]: GET 'http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1235' done. Status 200 . HTTP/1.1
+[12:43:24.28] Trace: Response 'http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1235': 
+HTTP/1.1 200 
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=864000
+Connection: keep-alive
+Content-Type: image/jpg
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Expires: Sat, 25 Jul 2020 19:43:18 GMT
+Server: nginx/1.14.0 (Ubuntu)
+
+
+[12:43:24.28] Trace: Request [Id: 1.2]: Connection reused from 192.168.1.244:52064 to 107.23.171.213:80.
+[12:43:24.29] Debug: Request [Id: 1.25]: GET 'http://www.advantageonlineshopping.com/css/images/Banner2.jpg' done. Status 200 . HTTP/1.1
+[12:43:24.29] Trace: Response 'http://www.advantageonlineshopping.com/css/images/Banner2.jpg': 
+HTTP/1.1 200 
+Content-Length: 85091
+Accept-Ranges: bytes
+Cache-Control: max-age=864000
+Connection: keep-alive
+Content-Type: image/jpeg
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Etag: W/"85091-1592473838000"
+Expires: Sat, 25 Jul 2020 19:43:18 GMT
+Last-Modified: Thu, 18 Jun 2020 09:50:38 GMT
+Server: nginx/1.14.0 (Ubuntu)
+
+
+[12:43:24.29] Debug: Request [Id: 1.2]: GET 'http://www.advantageonlineshopping.com/css/images/Down_arrow.svg' done. Status 200 . HTTP/1.1
+[12:43:24.29] Trace: Response 'http://www.advantageonlineshopping.com/css/images/Down_arrow.svg': 
+HTTP/1.1 200 
+Content-Length: 795
+Accept-Ranges: bytes
+Cache-Control: max-age=864000
+Connection: keep-alive
+Content-Type: image/svg+xml
+Date: Wed, 15 Jul 2020 19:43:18 GMT
+Etag: W/"795-1592473838000"
+Expires: Sat, 25 Jul 2020 19:43:18 GMT
+Last-Modified: Thu, 18 Jun 2020 09:50:38 GMT
+Server: nginx/1.14.0 (Ubuntu)
+
+
+[12:43:24.35] Debug: Request [Id: 1.10]: GET 'http://www.advantageonlineshopping.com/catalog/api/v1/categories' done. Status 200 . HTTP/1.1
+[12:43:24.35] Trace: Response 'http://www.advantageonlineshopping.com/catalog/api/v1/categories': 
+HTTP/1.1 200 
+Transfer-Encoding: chunked
+Cache-Control: no-store
+Connection: keep-alive
+Content-Encoding: gzip
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 15 Jul 2020 19:43:19 GMT
+Expires: 0
+Server: nginx/1.14.0 (Ubuntu)
+Vary: accept-encoding
+
+
+[12:43:24.39] Debug: Request [Id: 1.11]: GET 'http://www.advantageonlineshopping.com/catalog/api/v1/deals/search?dealOfTheDay=true' done. Status 200 . HTTP/1.1
+[12:43:24.39] Trace: Response 'http://www.advantageonlineshopping.com/catalog/api/v1/deals/search?dealOfTheDay=true': 
+HTTP/1.1 200 
+Transfer-Encoding: chunked
+Cache-Control: no-store
+Connection: keep-alive
+Content-Encoding: gzip
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 15 Jul 2020 19:43:19 GMT
+Expires: 0
+Server: nginx/1.14.0 (Ubuntu)
+Vary: accept-encoding
+
+
+[12:43:27.73] Debug: Request [Id: 1.6]: GET 'http://www.advantageonlineshopping.com/catalog/api/v1/categories/all_data' done. Status 200 . HTTP/1.1
+[12:43:27.73] Trace: Response 'http://www.advantageonlineshopping.com/catalog/api/v1/categories/all_data': 
+HTTP/1.1 200 
+Transfer-Encoding: chunked
+Cache-Control: no-store
+Connection: keep-alive
+Content-Encoding: gzip
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 15 Jul 2020 19:43:22 GMT
+Expires: 0
+Server: nginx/1.14.0 (Ubuntu)
+Vary: accept-encoding
+
+
+[12:43:27.73] Info: WebRequest [Id: 1] 'http://www.advantageonlineshopping.com/' completed. (30 request(s) sent, 1694359 bytes downloaded)
+[12:43:27.74] Info: WebRequest [Id: 2] 'http://www.advantageonlineshopping.com/accountservice/GetAccountConfigurationRequest' registered to send (sync).
+[12:43:27.74] Trace: Request [Id: 2] 'http://www.advantageonlineshopping.com/accountservice/GetAccountConfigurationRequest': 
+POST /accountservice/GetAccountConfigurationRequest HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Content-Length: 413
+Accept: application/xml, text/xml, */*; q=0.01
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Content-Type: text/xml; charset=UTF-8
+Origin: http://www.advantageonlineshopping.com
+Referer: http://www.advantageonlineshopping.com/
+Soapaction: com.advantage.online.store.accountserviceGetAccountConfigurationRequest
+X-Requested-With: XMLHttpRequest
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+               xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soap:Body>
+        <GetAccountConfigurationRequest
+                xmlns="com.advantage.online.store.accountservice"></GetAccountConfigurationRequest>
+    </soap:Body>
+</soap:Envelope>
+[12:43:27.74] Debug: Request [Id: 2]: POST 'http://www.advantageonlineshopping.com/accountservice/GetAccountConfigurationRequest' started.
+[12:43:27.74] Trace: Request [Id: 2]: Connection reused from 192.168.1.244:52060 to 107.23.171.213:80.
+[12:43:27.77] Debug: Request [Id: 2]: POST 'http://www.advantageonlineshopping.com/accountservice/GetAccountConfigurationRequest' done. Status 200 . HTTP/1.1
+[12:43:27.77] Trace: Response 'http://www.advantageonlineshopping.com/accountservice/GetAccountConfigurationRequest': 
+HTTP/1.1 200 
+Content-Length: 823
+Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapaction
+Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 3600
+Access-Control-Request-Method: POST, GET, OPTIONS, DELETE
+Cache-Control: no-store
+Connection: keep-alive
+Content-Type: text/xml;charset=utf-8
+Date: Wed, 15 Jul 2020 19:43:22 GMT
+Expires: 0
+Server: nginx/1.14.0 (Ubuntu)
+Soapaction: ""
+
+
+[12:43:27.77] Info: WebRequest [Id: 2] 'http://www.advantageonlineshopping.com/accountservice/GetAccountConfigurationRequest' completed. (1 request(s) sent, 1390 bytes downloaded)
+[12:43:27.77] Info: WebRequest [Id: 3] 'http://www.advantageonlineshopping.com/app/tempFiles/popularProducts.json' registered to send (sync).
+[12:43:27.77] Trace: Request [Id: 3] 'http://www.advantageonlineshopping.com/app/tempFiles/popularProducts.json': 
+GET /app/tempFiles/popularProducts.json HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+
+
+[12:43:27.77] Debug: Request [Id: 3]: GET 'http://www.advantageonlineshopping.com/app/tempFiles/popularProducts.json' started.
+[12:43:27.77] Trace: Request [Id: 3]: Connection reused from 192.168.1.244:52060 to 107.23.171.213:80.
+[12:43:27.78] Debug: Request [Id: 3]: GET 'http://www.advantageonlineshopping.com/app/tempFiles/popularProducts.json' done. Status 200 . HTTP/1.1
+[12:43:27.78] Trace: Response 'http://www.advantageonlineshopping.com/app/tempFiles/popularProducts.json': 
+HTTP/1.1 200 
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Cache-Control: max-age=0
+Connection: keep-alive
+Content-Encoding: gzip
+Content-Type: application/json
+Date: Wed, 15 Jul 2020 19:43:22 GMT
+Etag: W/"2323-1592473838000"
+Expires: Wed, 15 Jul 2020 19:43:22 GMT
+Last-Modified: Thu, 18 Jun 2020 09:50:38 GMT
+Server: nginx/1.14.0 (Ubuntu)
+Vary: accept-encoding
+
+
+[12:43:27.78] Info: WebRequest [Id: 3] 'http://www.advantageonlineshopping.com/app/tempFiles/popularProducts.json' completed. (1 request(s) sent, 2703 bytes downloaded)
+[12:43:27.78] Info: WebRequest [Id: 4] 'http://www.advantageonlineshopping.com/app/views/home-page.html' registered to send (sync).
+[12:43:27.78] Trace: Request [Id: 4] 'http://www.advantageonlineshopping.com/app/views/home-page.html': 
+GET /app/views/home-page.html HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: http://www.advantageonlineshopping.com/
+
+
+[12:43:27.78] Debug: Request [Id: 4]: GET 'http://www.advantageonlineshopping.com/app/views/home-page.html' started.
+[12:43:27.78] Trace: Request [Id: 4]: Connection reused from 192.168.1.244:52060 to 107.23.171.213:80.
+[12:43:27.79] Debug: Request [Id: 4]: GET 'http://www.advantageonlineshopping.com/app/views/home-page.html' done. Status 200 . HTTP/1.1
+[12:43:27.79] Trace: Response 'http://www.advantageonlineshopping.com/app/views/home-page.html': 
+HTTP/1.1 200 
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Cache-Control: max-age=0
+Connection: keep-alive
+Content-Encoding: gzip
+Content-Type: text/html
+Date: Wed, 15 Jul 2020 19:43:22 GMT
+Etag: W/"12463-1592473838000"
+Expires: Wed, 15 Jul 2020 19:43:22 GMT
+Last-Modified: Thu, 18 Jun 2020 09:50:38 GMT
+Server: nginx/1.14.0 (Ubuntu)
+Vary: accept-encoding
+
+
+[12:43:27.79] Info: WebRequest [Id: 4] 'http://www.advantageonlineshopping.com/app/views/home-page.html' completed. (1 request(s) sent, 12837 bytes downloaded)
+[12:43:27.80] Info: Transaction 'AOS_landing_page' ended with a 'Passed' status (Duration: 3891 ms., ThinkTime: 0 ms.).	(./main.js:108:9)
+[12:43:27.80] Info: Sleeping for 2.832s.	(./main.js:110:10)
+[12:43:30.63] Info: Transaction 'AOS_login' started.	(./main.js:112:9)
+[12:43:30.63] Debug: Parameter userPWD (same as userID) is taken from row 0
+[12:43:30.63] Info: Parameter Substitution: 'userPWD = Mercury'	(./main.js:132:42)
+[12:43:30.63] Debug: Parameter userID (sequential) is taken from row 0
+[12:43:30.63] Info: Parameter Substitution: 'userID = Mercury'	(./main.js:133:38)
+[12:43:30.63] Info: WebRequest [Id: 5] 'http://www.advantageonlineshopping.com/accountservice/AccountLoginRequest' registered to send (sync).
+[12:43:30.63] Trace: Request [Id: 5] 'http://www.advantageonlineshopping.com/accountservice/AccountLoginRequest': 
+POST /accountservice/AccountLoginRequest HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Content-Length: 506
+Accept: application/xml, text/xml, */*; q=0.01
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Content-Type: text/xml; charset=UTF-8
+Origin: http://www.advantageonlineshopping.com
+Referer: http://www.advantageonlineshopping.com/
+Soapaction: com.advantage.online.store.accountserviceAccountLoginRequest
+X-Requested-With: XMLHttpRequest
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+               xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soap:Body>
+        <AccountLoginRequest xmlns="com.advantage.online.store.accountservice">
+            <email></email>
+            <loginPassword>Mercury</loginPassword>
+            <loginUser>Mercury</loginUser>
+        </AccountLoginRequest>
+    </soap:Body>
+</soap:Envelope>
+[12:43:30.63] Debug: Request [Id: 5]: POST 'http://www.advantageonlineshopping.com/accountservice/AccountLoginRequest' started.
+[12:43:30.63] Trace: Request [Id: 5]: Connection reused from 192.168.1.244:52060 to 107.23.171.213:80.
+[12:43:30.68] Debug: Request [Id: 5]: POST 'http://www.advantageonlineshopping.com/accountservice/AccountLoginRequest' done. Status 200 . HTTP/1.1
+[12:43:30.68] Trace: Response 'http://www.advantageonlineshopping.com/accountservice/AccountLoginRequest': 
+HTTP/1.1 200 
+Content-Length: 791
+Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapaction
+Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 3600
+Access-Control-Request-Method: POST, GET, OPTIONS, DELETE
+Cache-Control: no-store
+Connection: keep-alive
+Content-Type: text/xml;charset=utf-8
+Date: Wed, 15 Jul 2020 19:43:25 GMT
+Expires: 0
+Server: nginx/1.14.0 (Ubuntu)
+Soapaction: ""
+
+
+[12:43:30.68] Info: WebRequest [Id: 5] 'http://www.advantageonlineshopping.com/accountservice/AccountLoginRequest' completed. (1 request(s) sent, 1358 bytes downloaded)
+[12:43:30.68] Trace: 'http://www.advantageonlineshopping.com/accountservice/AccountLoginRequest' response body: <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns2:AccountLoginResponse xmlns:ns2="com.advantage.online.store.accountservice"><ns2:StatusMessage><ns2:success>true</ns2:success><ns2:userId>617150899</ns2:userId><ns2:reason>Login Successful</ns2:reason><ns2:token>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3d3cuYWR2YW50YWdlb25saW5lc2hvcHBpbmcuY29tIiwidXNlcklkIjo2MTcxNTA4OTksInN1YiI6Ik1lcmN1cnkiLCJyb2xlIjoiQURNSU4ifQ.mgJXJx96Vg5QXSp1C3KkMm3UALX1VxszguzZ9O9Rdm0</ns2:token><ns2:sessionId>1735400cc93@7E47F132B19^i%617150899</ns2:sessionId><ns2:t_authorization>TWVyY3VyeTpNZXJjdXJ5</ns2:t_authorization><ns2:accountType>10</ns2:accountType></ns2:StatusMessage></ns2:AccountLoginResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+[12:43:30.68] Info: Saving parameter 'userId = 617150899'
+[12:43:30.68] Info: Saving parameter 'authKey = TWVyY3VyeTpNZXJjdXJ5'
+[12:43:30.68] Info: Saving parameter 'isLoginSuccess = true'
+[12:43:30.68] Info: WebRequest [Id: 6] 'http://www.advantageonlineshopping.com/order/api/v1/carts/617150899' registered to send (sync).
+[12:43:30.68] Trace: Request [Id: 6] 'http://www.advantageonlineshopping.com/order/api/v1/carts/617150899': 
+GET /order/api/v1/carts/617150899 HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Authorization: Basic TWVyY3VyeTpNZXJjdXJ5
+Referer: http://www.advantageonlineshopping.com/
+
+
+[12:43:30.68] Debug: Request [Id: 6]: GET 'http://www.advantageonlineshopping.com/order/api/v1/carts/617150899' started.
+[12:43:30.68] Trace: Request [Id: 6]: Connection reused from 192.168.1.244:52060 to 107.23.171.213:80.
+[12:43:30.70] Debug: Request [Id: 6]: GET 'http://www.advantageonlineshopping.com/order/api/v1/carts/617150899' done. Status 200 . HTTP/1.1
+[12:43:30.70] Trace: Response 'http://www.advantageonlineshopping.com/order/api/v1/carts/617150899': 
+HTTP/1.1 200 
+Transfer-Encoding: chunked
+Cache-Control: no-store
+Connection: keep-alive
+Content-Encoding: gzip
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 15 Jul 2020 19:43:25 GMT
+Expires: 0
+Server: nginx/1.14.0 (Ubuntu)
+Set-Cookie: JSESSIONID=90B764E8190C0A517E94C81AB7E0867E; Path=/order; HttpOnly
+Vary: accept-encoding
+
+
+[12:43:30.70] Info: WebRequest [Id: 6] 'http://www.advantageonlineshopping.com/order/api/v1/carts/617150899' completed. (1 request(s) sent, 434 bytes downloaded)
+[12:43:30.70] Debug: Parameter userID (sequential) is taken from row 0
+[12:43:30.70] Info: Parameter Substitution: 'userID = Mercury'	(./main.js:163:52)
+[12:43:30.70] Debug: Parameter userPWD (same as userID) is taken from row 0
+[12:43:30.70] Info: Parameter Substitution: 'userPWD = Mercury'	(./main.js:163:76)
+[12:43:30.70] Info: Login passed for: [Mercury : Mercury]	(./main.js:163:14)
+[12:43:30.70] Info: Transaction 'AOS_login' ended with a 'Passed' status (Duration: 72 ms., ThinkTime: 0 ms.).	(./main.js:164:13)
+[12:43:30.70] Info: Sleeping for 3.462s.	(./main.js:171:10)
+[12:43:34.17] Info: Transaction 'AOS_logout' started.	(./main.js:173:9)
+[12:43:34.17] Info: WebRequest [Id: 7] 'http://www.advantageonlineshopping.com/accountservice/AccountLogoutRequest' registered to send (sync).
+[12:43:34.17] Trace: Request [Id: 7] 'http://www.advantageonlineshopping.com/accountservice/AccountLogoutRequest': 
+POST /accountservice/AccountLogoutRequest HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Content-Length: 497
+Accept: application/xml, text/xml, */*; q=0.01
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Content-Type: text/xml; charset=UTF-8
+Origin: http://www.advantageonlineshopping.com
+Referer: http://www.advantageonlineshopping.com/
+Soapaction: com.advantage.online.store.accountserviceAccountLogoutRequest
+X-Requested-With: XMLHttpRequest
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+               xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soap:Body>
+        <AccountLogoutRequest xmlns="com.advantage.online.store.accountservice">
+            <loginUser>617150899</loginUser>
+            <base64Token>Basic TWVyY3VyeTpNZXJjdXJ5</base64Token>
+        </AccountLogoutRequest>
+    </soap:Body>
+</soap:Envelope>
+[12:43:34.17] Debug: Request [Id: 7]: POST 'http://www.advantageonlineshopping.com/accountservice/AccountLogoutRequest' started.
+[12:43:34.17] Trace: Request [Id: 7]: Connection reused from 192.168.1.244:52060 to 107.23.171.213:80.
+[12:43:34.22] Debug: Request [Id: 7]: POST 'http://www.advantageonlineshopping.com/accountservice/AccountLogoutRequest' done. Status 200 . HTTP/1.1
+[12:43:34.22] Trace: Response 'http://www.advantageonlineshopping.com/accountservice/AccountLogoutRequest': 
+HTTP/1.1 200 
+Content-Length: 402
+Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapaction
+Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 3600
+Access-Control-Request-Method: POST, GET, OPTIONS, DELETE
+Cache-Control: no-store
+Connection: keep-alive
+Content-Type: text/xml;charset=utf-8
+Date: Wed, 15 Jul 2020 19:43:28 GMT
+Expires: 0
+Server: nginx/1.14.0 (Ubuntu)
+Soapaction: ""
+
+
+[12:43:34.22] Info: WebRequest [Id: 7] 'http://www.advantageonlineshopping.com/accountservice/AccountLogoutRequest' completed. (1 request(s) sent, 969 bytes downloaded)
+[12:43:34.22] Info: Saving parameter 'isLogoutSuccess = true'
+[12:43:34.22] Info: Transaction 'AOS_logout' ended with a 'Passed' status (Duration: 51 ms., ThinkTime: 0 ms.).	(./main.js:204:13)
+[12:43:34.22] Info: Ending iteration 1.
+[12:43:34.23] Info: Starting finalize.
+[12:43:34.23] Info: Ending finalize.
